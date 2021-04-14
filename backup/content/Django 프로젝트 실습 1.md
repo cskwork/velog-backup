@@ -17,9 +17,13 @@ mkdir pathToProject
 cd ./pathToProject
 ```
 
-3 파이썬 패키지 가상환경 생성
-```
+3 파이썬 패키지 가상환경 생성 및 진입
+```python
 python -m venv venv
+
+.\venv\Scripts\activate # window
+
+source .\venv\bin\activate # Linux
 ```
 
 4 Django 프레임워크 설치
