@@ -1,11 +1,11 @@
 ---
 title: "Nginx 서버 설정"
-description: "이상적인 NGINX 서버 설정을 탐색"
+description: "NGINX 서버 설정 탐구"
 date: 2021-04-11T11:49:33.399Z
 tags: ["Nginx"]
 ---
 # 1 목적
-이상적인 NGINX 서버 설정을 탐색
+NGINX 서버 설정을 탐구
 
 # 2 퀵
 

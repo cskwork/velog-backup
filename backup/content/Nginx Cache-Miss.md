@@ -2,7 +2,7 @@
 title: "Nginx Cache-Miss"
 description: "X-Cache-Status : Miss캐시 처리가 안되고 있다.이렇게 캐시 경로와 캐시 처리하라는 명령어로 처리했는데도 안되고 있다."
 date: 2021-04-14T01:25:53.086Z
-tags: []
+tags: ["Cache","Nginx"]
 ---
 ### 현상 :
 X-Cache-Status : Miss
@@ -43,7 +43,7 @@ location / {
 
 ### 해결 : 
 
-정리해주니까 잘된다
+오타가 있어 정리했다. 
 ```
 @ip:~/ $ curl --head https://siteurl
 HTTP/1.1 200 OK
