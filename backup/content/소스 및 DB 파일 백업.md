@@ -7,6 +7,8 @@ tags: ["PostgreSQL","backup"]
 # 1 목적
 서버 및 DB 파일 백업 정책
 
+권장하는 방법은 아니지만 즉각적인 백업이 필요하면 
+
 # 2 퀵
 ### 비욘드 컴페어 백업
 ```
@@ -74,6 +76,7 @@ sync create-empty update:left->right
 ```
 
 ### POSTGRESQL DB SSH 백업 
+
 ```
 # https://www.postgresql.org/docs/9.2/app-pgdump.html#PG-DUMP-EXAMPLES
 ssh -i "PublicKey.pem" username@ip "PGPASSWORD='password' pg_dump -h localhost -p 5432 -d dbname -U userid -C --column-inserts" > "dbbackup.sql"

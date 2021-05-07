@@ -16,13 +16,13 @@ from firebase import firebase
 firebase = firebase.FirebaseApplication('URL of database', None)
 
 # Retrieve Data
-result = firebase.get('/python-example-f6d0b/Students/', '')
+result = firebase.get('/python-example-f6d0b/name/', '')
 # Update Data
-firebase.put('/python-example-f6d0b/Students/-LjLUhaWGuxNd5gOEmse','Name','Bob')
+firebase.put('/python-example-f6d0b/name/-firebasecode','Name','Bob')
 # Delete Data
-firebase.delete('/python-example-f6d0b/Students/', '-LjLUhaWGuxNd5gOEmse')
+firebase.delete('/python-example-f6d0b/name/', '-firebasecode')
 # Insert Data
-result = firebase.post('/python-example-f6d0b/Students/',data)
+result = firebase.post('/python-example-f6d0b/name/',data)
 
 print(result)
 
