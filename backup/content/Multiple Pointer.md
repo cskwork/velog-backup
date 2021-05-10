@@ -11,10 +11,12 @@ tags: []
 /*
 NAIVE
 Q:
-Write a function called sumZero which accepts a sorted array of integers.
+Write a function called sumZero which accepts 
+a sorted array of integers.
 
 The function should find the first pair where the sum is 0. 
-Return an array that includes both values that sum to zero or undefined if a pair does not exist.
+Return an array that includes both values that sum to zero 
+or undefined if a pair does not exist.
 */
 function countUniqueValues(arr){
   //-----------------------------------
@@ -49,16 +51,27 @@ console.log(countUniqueValues([1,2,2,5,7,7,99]))
 ```js
 /*
 Q:
-Write a function called sumZero which accepts a sorted array of integers.
+Write a function called sumZero which accepts 
+a sorted array of integers.
 
 The function should find the first pair where the sum is 0. 
-Return an array that includes both values that sum to zero or undefined if a pair does not exist.
+Return an array that includes both values that sum to zero 
+or undefined if a pair does not exist.
+
+P:
+1 배열 값이 있는지 확인
+2 배열 값을 비교할 위치를 0과 1로 나누고 값이 일치할 경우 1번째 위치만 증가. 
+  일치하지 않을 경우 둘 다 증가하고 0번째 위치 값은 동일하게 만들어서 
+  카운트 중복 제거 
 */
 function countUniqueValues(arr){
+    //배열 값이 있는지 확인
     if(arr.length === 0) return 0;
     var i = 0;
   //------------------------------------
-  //우측 값은 +1 위치에서 시작하면서 좌측 우측 값을 비교해서 값이 맞지 않으면 좌측 값 증가. 동일하면 다음 루프
+    //배열 값을 비교할 위치를 0과 1로 나누고 값이 일치할 경우 1번째 위치만 증가. 
+    //일치하지 않을 경우 둘 다 증가하고 0번째 위치 값은 동일하게 만들어서 
+    //카운트 중복 제거
     for(var j = 1; j < arr.length; j++){
         if(arr[i] !== arr[j]){
             i++;
@@ -69,9 +82,6 @@ function countUniqueValues(arr){
   //------------------------------------
 }
 console.log(countUniqueValues([1,2,2,5,7,7,99]))
-
-
-
 ```
 
 

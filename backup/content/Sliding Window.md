@@ -6,30 +6,42 @@ tags: []
 ---
 Multiple Pointer Application -> Sliding Pointers
 
-첫번째와 마지막 위치를 기준으로 누적된 합을 이동시키고 비교하는 방법. 
+첫번째와 마지막 위치를 기준으로 누적된 합을 이동하면서 비교하는 방법. 
 
 ```js
-/*Write function called maxSubArraySum - accepts array of integers and number n.
+/*
+Q:
+Write function called maxSubArraySum - accepts array of integers 
+and number n.
 
-This function calculates max. sum of n. consecutive elements in array. 
+This function calculates max. sum of n. 
+consecutive elements in array. 
 (largest sum in array)
+
+P:
+1 maxSum을 보관할 변수, 임시 Sum을 보관할 변수 선언
+2 Input validity 확인
+3 0번째 위치에서 순차적으로 지정된 횟수만큼 더한 합을 maxSum에 보관 
+4 0번째 위치 누적합 다음의 누적합을 0번째 누적합과 비교해서 더 큰 값 리턴.
+0번째 누적합 위치와 그 다음 n번째 누적합의 위치 이동.
 */
 //O(N)
 function maxSubArraySum(arr, num){
+    //maxSum을 보관할 변수, 임시 Sum을 보관할 변수 선언
     let maxSum = 0;
     let tempSum = 0;
-    if(arr.length < num) return null; //Check input validity
-
+    //Input validity 확인
+    if(arr.length < num) return null; 
     //------------------------------------------
-    //횟수만큼 순차적으로 증가한 값을 maxSum에 보관
+    //0번째 위치에서 순차적으로 지정된 횟수만큼 더한 합을 maxSum에 보관 
     for(let i=0; i< num; i++){
-        maxSum += arr[i]; //Init maxSum
+        maxSum += arr[i]; 
     }
     tempSum = maxSum;
     //------------------------------------------
     
     //------------------------------------------
-    //첫번째 누적합은 넘기고 다음 누적합을 만들어서 찻반째 누적합하고 비교해서 누적 합이 큰 값을 리턴 
+    //0번째 위치 누적합 다음의 누적합을 0번째 누적합과 비교해서 더 큰 값 리턴 
     for(let i= num; i < arr.length; i++){
         //------------------------------------------
         //첫번째 누적합 - 배열의 최초 위치 값 + 누작합이 끝나는 위치 값
