@@ -2,7 +2,7 @@
 title: "Multiple Pointer"
 description: "위치 기록 변수 활용  배열의 고유 값 횟수 찾기  REFACTORED "
 date: 2021-05-06T23:34:13.547Z
-tags: []
+tags: ["알고리즘"]
 ---
 ## 위치 기록 변수 활용
 

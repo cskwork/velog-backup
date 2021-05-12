@@ -2,7 +2,7 @@
 title: "Frequency Counter"
 description: "https&#x3A;//codepen.io/cskwork/pen/KKWwwKe?editors=0011"
 date: 2021-05-06T23:09:50.975Z
-tags: []
+tags: ["알고리즘"]
 ---
 Compare Two Arrays Frequency
 ```js

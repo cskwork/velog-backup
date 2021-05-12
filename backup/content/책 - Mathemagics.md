@@ -7,6 +7,10 @@ tags: []
 ## Objective 
 - Overcome fear of numbers.
 - Solve large arithmetic problems quickly and accurately
+- (수학 자신감을 심어줄 수 있다?) 
+
+## Contents
+- \+ , - , / , x 
 
 ## 2-Digit Addition (Left to Right)
 

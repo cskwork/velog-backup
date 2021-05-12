@@ -2,7 +2,7 @@
 title: "Sliding Window"
 description: "Multiple Pointer Application -> Sliding Pointers첫번째와 마지막 위치를 기준으로 누적된 합을 이동시키고 비교하는 방법. "
 date: 2021-05-07T00:16:31.740Z
-tags: []
+tags: ["알고리즘"]
 ---
 Multiple Pointer Application -> Sliding Pointers
 

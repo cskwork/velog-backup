@@ -2,7 +2,7 @@
 title: "귀납법 vs 연역법"
 description: "Bottom-up approach (cause-and-effect)Finding patterns from observations.if A=B and B=C, the A=CTop-down approach to drawing conclusion.알려진 이론(명제)을 어떤 "
 date: 2021-05-08T21:31:52.982Z
-tags: []
+tags: ["알고리즘"]
 ---
 ## Inductive Reasoning (귀납 추론) : 
 - Bottom-up approach (cause-and-effect)
