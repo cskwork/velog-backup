@@ -2,7 +2,7 @@
 title: "JS array- Pop, Push, Shift & Unshift"
 description: "Pop, Push, Shift and Unshift 배열 제어 push, shift - queue (FIFO) push, pop - stack (LIFO)  pop() : 배열 앞에 마지막으로 추가했던 아이템을 제거한다.  push() : 배열 마지막 순서로 아이템을 "
 date: 2021-04-25T06:04:00.937Z
-tags: []
+tags: ["JavaScript","알고리즘"]
 ---
 ## Pop, Push, Shift and Unshift
 #### 배열 제어
