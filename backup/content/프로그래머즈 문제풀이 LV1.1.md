@@ -25,10 +25,6 @@ function solution(a, b) {
   return ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'][new Date(2021, a - 1, b).getDay()];
 }
 
-function solution(a, b) {
-  return ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'][new Date(2021, a - 1, b).getDay()];
-}
-
 console.log(solution(5,11));//"TUE"
 console.log(new Date(2021, 5 - 1, 11));//"2021-05-10T15:00:00.000Z"
 console.log(new Date(2021, 5 - 1, 11).getDay());//2
