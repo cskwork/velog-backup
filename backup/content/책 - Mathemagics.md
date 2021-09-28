@@ -91,3 +91,55 @@ from left to right, and the numbers 51 through 100 from right to left directly
 below the 1-50 numbers, each combination would add to 101 (1 + 100; 2
 + 99; 3 + 98 ... ). Since there were 50 combinations, the answer would
 be 101 x 50 = 5050.
+
+## 3-Digit Subtraction (Left to Right)
+**Basic**
+![](/images/ed38ae31-c30b-4b19-889a-47e141c14b52-image.png)
+If the subtraction of two numbers requires you to borrow a 
+number, round up the second number to a multiple of ten 
+and add back the difference.
+![](/images/4fafd2ce-0382-43df-b0ad-8579fe144dcb-image.png)
+
+**Using Complements**
+Use when upper number is lower than bottom number.
+![](/images/c7b07c76-ae2e-4848-bae3-46aab26eb28a-image.png)
+
+![](/images/fc02596a-a598-4dff-863a-3a2408e6aa12-image.png)
+![](/images/3514f723-8aff-4504-8b45-e7e5c048ba55-image.png)
+
+### Practice Exercises
+![](/images/231aca52-ffa4-405f-beec-cf187f66e83b-image.png)
+
+## 2-Digit Multiplication
+![](/images/eaeec13d-34ba-401b-ab3e-a0d9eccab678-image.png)
+
+**Rounding Up**
+The subtraction method works especially well for numbers just 
+one or two digits away from a multiple of 10. I
+![](/images/9b0cca40-adf0-4722-8dda-dc633e67117a-image.png)
+
+### Practice Exercises
+
+![](/images/d7f353e3-ec46-49cf-9624-8bdf99f3ad03-image.png)
+
+## 3-Digit Multiplication
+
+There is no magic secret to remembering that first number, but 
+with practice I guarantee you will improve your concentration so that 
+holding on to numbers while performing other functions will get 
+easier. 
+![](/images/965ca084-cc62-4ff1-af46-1e959b0ec7ac-image.png)
+![](/images/00cb1a65-88ad-4775-b9d3-7750c61d03d7-image.png)
+
+When you are first tackling these problems, repeat the answers to 
+each part out loud as you compute the rest.
+
+I can assure you from 
+experience that doing mental calculations is just like riding a bicycle 
+or typing. It might seem impossible at first, but once you've mastered 
+it, you will never forget how to do it. 
+
+### Practice Exercises
+
+![](/images/04092d79-b25a-4046-87fd-060a0fb59169-image.png)
+![](/images/bab3379e-4de7-47f5-b251-9215babc6632-image.png)
