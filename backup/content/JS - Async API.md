@@ -2,7 +2,7 @@
 title: "JS - Async API"
 description: "Using non-blocking asynchronous APIs is even more important on Node than in the browser because Node is a single-threaded event-driven execution envir"
 date: 2021-09-11T01:37:13.619Z
-tags: []
+tags: ["JavaScript"]
 ---
 ### ASYNC API
 - Using non-blocking asynchronous APIs is even more important on Node than in the browser because Node is a single-threaded event-driven execution environment.

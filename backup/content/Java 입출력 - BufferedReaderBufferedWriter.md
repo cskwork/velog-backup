@@ -2,7 +2,7 @@
 title: "Java 입출력 - BufferedReader/BufferedWriter"
 description: "메모리 버퍼를 이용해서 읽고 쓰는 함수버퍼를 사용해서 입출력 효율 증가readLine()을 사용하면 데이터를 라인 단위를 읽은다.readLine() 함수 리턴은 String 고정이어서 다른 타입으로 입력 받으려면 형변환 필수.많은 양의 출력이 필요할 때 쓰면 성능 증가"
 date: 2021-05-13T03:25:44.139Z
-tags: []
+tags: ["Java"]
 ---
 ## ✉    BufferedReader/BufferedWriter 정의
 - 메모리 버퍼를 이용해서 읽고 쓰는 함수

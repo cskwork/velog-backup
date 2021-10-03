@@ -2,7 +2,7 @@
 title: "JS - addEventListener"
 description: "fundamental problem of the aforementioned ways to assign handlers – we can’t assign multiple handlers to one event.addEventListener and removeEventLis"
 date: 2021-09-12T12:49:06.362Z
-tags: []
+tags: ["JavaScript"]
 ---
 
 ### addEventHandler

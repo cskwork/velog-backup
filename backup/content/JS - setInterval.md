@@ -2,7 +2,7 @@
 title: "JS - setInterval"
 description: "setInterval() method, offered on the Window and Worker interfaces, repeatedly calls a function or executes a code snippet, with a fixed time delay bet"
 date: 2021-09-12T12:55:36.320Z
-tags: []
+tags: ["JavaScript"]
 ---
 ### What is setInterval?
 setInterval() method, offered on the Window and Worker interfaces, repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.

@@ -2,7 +2,7 @@
 title: "[책] Road Less Travelled"
 description: "Living a life of spiritual growth requires a loving nature and being open to new perspectives, including the helpful and mysterious force of grace. Ta"
 date: 2021-05-23T01:57:55.299Z
-tags: []
+tags: ["독서"]
 ---
 Living a life of spiritual growth requires a loving nature and being open to new perspectives, including the helpful and mysterious force of grace. Taking the road less traveled isn’t easy – it takes effort, will and a strong sense of self-discipline. Fortunately, there are tools and changes that you can add to your life to bring balance and put yourself on the path to spiritual growth.
 
