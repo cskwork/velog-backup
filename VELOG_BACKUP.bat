@@ -1,4 +1,4 @@
-cd "C:\2_DEV_PROJECTS\velog-backup"
+cd "E:\GitCloud\velog-backup"
 
 node app.js -u csk917work
 
